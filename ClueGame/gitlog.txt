@@ -1,0 +1,1963 @@
+commit 9424928cb2fb8a00d7438c4e157d64a67cff293b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 22:29:13 2022 -0600
+
+    edited the player movement function to reflect the check of if a player can move into an occupied space or not
+
+commit 9fd89c74566b3800d7f679c742a4012b578e8700
+Merge: 6a1ec25 e0e5ff2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:25:40 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 6a1ec2576902d18789520a6c1a1e4c4329681d7d
+Merge: 8f6e1da 3fb9f0d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:24:55 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit e0e5ff2b794444ff46c9dd32f50c99230cf4a749
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 22:24:48 2022 -0600
+
+    reworked the doorDraw function to be neater and less redundant
+
+commit 8f6e1da78124ee9db0f2d4a015bbab091c2ce74d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:24:43 2022 -0600
+
+    Fixed a bug where the occupation status of cells was not being correctly updated
+
+commit 3fb9f0dd1f7d9c1725958aa52938a570e9622d7d
+Merge: 570c263 762332c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 22:17:32 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 570c2634a1037e36d2677c552c1741a3f9be1cef
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 22:09:07 2022 -0600
+
+    shortened a block of code that checked if a space that was being drawn was a target to a function call 'isValidTarget'
+
+commit 762332cc02a5f4645e959fe4efeaa91f3eea6f30
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:06:07 2022 -0600
+
+    Secret passage labels now scale with size of board
+
+commit 5419bd0e1ff61b7fe1f8646a9d3edf35a8de3b9d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:04:28 2022 -0600
+
+    Room labels now scale with size of board
+
+commit 433db505e5e1310551e110b5384998dc5b5c5942
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 21:57:45 2022 -0600
+
+    shortened constraints of if statement that checked if the GUI could draw the name of the room in a space
+
+commit 5aaec9c5021073828637047d7359d715fcf0df73
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 21:57:02 2022 -0600
+
+    Added comments to mouse listener for readability
+
+commit 21aa26cf061da1f8ac1c3ba27b8f24cb281c365b
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 21:53:32 2022 -0600
+
+    Extracted the x and y variable in mouse listener for player movemnet for readability
+
+commit 3661d4cbdc9c5bf8a5938a97d7ba35e73e285ed8
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 21:53:27 2022 -0600
+
+    shortened the code that draws the board spaces in the GUI
+
+commit 9eafc35ee4b26bb2aef81d366a73de7326b20c8f
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 21:51:13 2022 -0600
+
+    extracted a method from a lengthy code block in the human player getting possible targets to make it more readable
+
+commit b5e411386e499c3960e5d30e90d9fc0d6f1ad30c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 15 01:10:57 2022 -0600
+
+    all tests pass and functionality works as expected
+
+commit a8c672cfbd260d76e1ead0093e7bc4d35fba8f92
+Merge: ceeb31c c655506
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 15 01:00:17 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit ceeb31ce7fd6683f0f4a16f80867ed72e8243033
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 15 01:00:12 2022 -0600
+
+    Player can properly move to selected spaces
+
+commit c65550611979790be786d0ae8f060b3763f37e00
+Merge: 3a2711a 7974a93
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Apr 15 00:05:25 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 3a2711aa18c795807f373f30a77a3f807b16fccd
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Apr 15 00:05:20 2022 -0600
+
+    pre pull
+
+commit 7974a934f27153ccb791b9b3145fef628cf35c84
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 15 00:04:16 2022 -0600
+
+    Working on getting click to work
+
+commit e27736492e775a5afcfa7945036bda689ba227cc
+Merge: f35e17f 6ae5508
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 23:55:32 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit f35e17fd90fe8aa1543cbfaeba10382b7f522e63
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 23:55:27 2022 -0600
+
+    Working on getting click to work
+
+commit 6ae55085fae1f2d1715085040025f037a38fcc05
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 23:39:43 2022 -0600
+
+    added rooms being completely filled
+
+commit 1c7696cd131663f88de6201db80ee4e3454b5224
+Merge: db1b34f 87127aa
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 23:24:34 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit db1b34fda946902bd1d5cc53979efdb226d90cd9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 23:24:28 2022 -0600
+
+    pre pull
+
+commit 87127aa1bf26e3c58ab5746437c60bc751469c7f
+Merge: acd15fb febc55e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 23:24:26 2022 -0600
+
+    Potential targets calculated on first turn
+
+commit acd15fbb3beacd99f75a0d969136ceaee4a1d6be
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 23:14:37 2022 -0600
+
+    Added method stubs for mouse listener
+
+commit febc55ec429abe2eba518f3de6e79caed1c8217e
+Merge: 04a9167 66e9843
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 23:11:50 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 04a916743b604ebac58ec5ac4bf5a5a5a5dfa143
+Merge: 96ee04d d3e9c90
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 23:11:40 2022 -0600
+
+    implemented highlighting of player targets
+
+commit 66e9843f217c349bf1c581ccee70fe2eab6ed41e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 22:37:03 2022 -0600
+
+    Suggestions properly display in control panel
+
+commit 96ee04d6bd638bd665d5f1c8f1865ae95a18342c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 21:53:04 2022 -0600
+
+    refactor
+
+commit d3e9c900c26fd187e91e9420dcd0403ed7c97fea
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 21:52:51 2022 -0600
+
+    Players move and secret passages are now shown on board
+
+commit f56bbb5aacd074c63bebe855de13725fd69446e4
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 12:31:49 2022 -0600
+
+    Added if statements to prevent 306 tests from failing
+
+commit 75e7e7f4b0cee48afd91d3c579cdafc9ea98101c
+Merge: 68cc813 184aaab
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 14 12:28:56 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 184aaab8af681e753f8aeb1c55bdf4312bd138e0
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 14 12:28:05 2022 -0600
+
+    Fixed the sizing of doors
+
+commit 41f13663d0e7839bdea670c8d7e2e53666d16de7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Apr 13 11:05:53 2022 -0600
+
+    Players properly cycle, now must add movement and make usre turn is finished
+
+commit 352cb948239df7d4330611ae62fb28d485e08e86
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Apr 13 10:19:09 2022 -0600
+
+    Added an opening dialogue box
+
+commit 68cc8134a597077f2096af6943b1a212908fa4da
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 22:09:36 2022 -0600
+
+    edited the way doors are drawn to be more clear about their direction
+
+commit 71922452173b25ba186d78dbd92bd8fc3b95fae6
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 13:34:29 2022 -0600
+
+    Added comments
+
+commit b3fbc939a16ee5060f454bf96f6794802fa58b25
+Merge: 92535e9 9e34c66
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 13:30:44 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 92535e9b11a7f2bf0d99bbdc7ceb8723ab9f340b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 13:30:06 2022 -0600
+
+    pre pull
+
+commit 9e34c661b22dae3922b99fda8cddd6a8c6a8b6ad
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 13:29:26 2022 -0600
+
+    Updated labels for rooms so that they look better
+
+commit 15292055727b2e86cf815fb97c61ee397710894c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 13:29:03 2022 -0600
+
+    pre pull
+
+commit a2b6ad8dd24a89c67921dd9045c21b759b166b07
+Merge: 0a3a37f 38de5f9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 13:14:46 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 38de5f921f858264bca0e3f2cfdfd48bf5c1bd6f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 13:14:45 2022 -0600
+
+    Updated a player's starting position
+
+commit 0a3a37fb0424057343c5192e8d079d802bfd606a
+Merge: d9b6693 69b7298
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 13:14:30 2022 -0600
+
+    pre pull
+
+commit d9b6693f367a8e5f74f80dfd35e1147379ad3b36
+Merge: 157a48b 145c661
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 13:12:28 2022 -0600
+
+    added doorways t display
+
+commit 69b72980ea94fe789333a81776a0f3610f2e9bb5
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 13:11:34 2022 -0600
+
+    Made names that are too long split at spaces and become new lines
+
+commit 145c6617f55bb9ec48b0425846654d2b7f0774e2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 12:29:55 2022 -0600
+
+    Board now properly resizes
+
+commit 157a48beeede5b448c76b4f6c05adbba4f70c5ff
+Merge: c82fbf2 4431853
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 12:29:37 2022 -0600
+
+    pre pull
+
+commit 4431853a8d66d7fe4d3c4ea6561a096e91deb9ef
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:42:33 2022 -0600
+
+    players are now in proper place, todo: center the names, and have the panel properly size when dragged
+
+commit c82fbf20366e7c16f17efc3a607aaad61937055c
+Merge: 47258ba 1a46495
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:37:51 2022 -0600
+
+    pre pull
+
+commit 47258ba8730e42b723db7f22d48b5fa0c3e4abff
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:30:33 2022 -0600
+
+    pre pull
+
+commit 1a46495cad1a9d026f2d6f1d22e1828cce1913bc
+Merge: 80aca93 7286b74
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:30:04 2022 -0600
+
+    Changed font of rooms, needs to center it in the label
+
+commit 80aca937ad379f79e94a5885c48e529a769d361c
+Merge: 01f6873 9643a2e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:27:40 2022 -0600
+
+    commit for merging
+
+commit 7286b748ed0f0bac725f698b1d9d328755169075
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:24:19 2022 -0600
+
+    fixed bug in drawing players
+
+commit 01f687336ee7af77e9e21e2581be683c23622f82
+Merge: 409b3fa 858dc62
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:20:49 2022 -0600
+
+    commit for merging
+
+commit 9643a2e8f363a7dd81598c533665e840e7b9a8fb
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:20:18 2022 -0600
+
+    added unused spaces
+
+commit 409b3fa8dd12cb95f30ae997ce4e73e1601764e5
+Merge: 967feaa bb5c6fd
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:18:31 2022 -0600
+
+    commit for merging
+
+commit 858dc627b4a173305bd4ef172432ba3cd529aff2
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:17:59 2022 -0600
+
+    changed the color of rooms
+
+commit 967feaa5b211823e6c64f3c445e5ea6655f69b64
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:15:04 2022 -0600
+
+    working on players to be in correct spot
+
+commit bb5c6fdcba07ff377dddc49566019aab8ef1b50e
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:14:20 2022 -0600
+
+    fixed error in drawing color
+
+commit e7d500197209bd9e4fdbd0f40e8e646fe2b52624
+Merge: 41d9ea3 6ee02f9
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:02:19 2022 -0600
+
+    Handled conflicts
+
+commit 41d9ea340108557f73810a5135675f5f062dbda0
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 12 00:00:59 2022 -0600
+
+    Players are being drawn but not in correct spot
+
+commit 6ee02f99928d43d7c4520ebbcf41b0ee34d610ab
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Apr 12 00:00:29 2022 -0600
+
+    added better resizing
+
+commit ed93a2871ebb17338f646f99946c2ffb1c678abd
+Merge: 11a6e2f 2f140bf
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:41:24 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 11a6e2f8d1d5a3d075818dda5b4797bcd6b6e336
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:41:19 2022 -0600
+
+    added filling of colors
+
+commit 2f140bf736c50499674def08b2a66897a41b1600
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:41:02 2022 -0600
+
+    Writes room names but not at proper cells
+
+commit 6ab786bdbea9d79c6452a1483982fe58d9401756
+Merge: f8fec52 3d79b56
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:32:13 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit f8fec52fb351ae054c439979a6e5811e7d4ceb86
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:32:09 2022 -0600
+
+    commiting for merging
+
+commit 3d79b568790e497f7b7a9cd789690624464b0a58
+Merge: 4f4034e 1353db9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:31:24 2022 -0600
+
+    added cell drawing function
+
+commit 1353db9302b95f00a047d123c803427c56bbad5f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:28:28 2022 -0600
+
+    removed the panel in paint component
+
+commit 4f4034e07c7d7d1c891c1d215fe820abc24630a1
+Merge: bf9c1c2 06e01d9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:26:30 2022 -0600
+
+    fixed conflicts
+
+commit 06e01d9d36ea38a296c3c7d8f6889dea34e8a85b
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:24:41 2022 -0600
+
+    added board to the overall frame
+
+commit bf9c1c2089fc0cb312c559e347c71b88ad62c559
+Merge: 63e7ae7 c014d9a
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:24:31 2022 -0600
+
+    pre pull
+
+commit c014d9ad1e60918b9eefe9b15b4967e58a90f6fa
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:13:44 2022 -0600
+
+    Calculated height and width of cells
+
+commit 63e7ae7bd820cd42507d7a0f97aaee6a5b8866c7
+Merge: a14dcd9 1e94c77
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:11:48 2022 -0600
+
+    changed variable names for readability
+
+commit 1e94c77044bc34e9c33073a0066a39bcb52da268
+Merge: f84ed16 3f26846
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:07:41 2022 -0600
+
+    Merged conflicts
+
+commit a14dcd9f8e773e900bf7eb1c523598f51fc643fb
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 23:07:32 2022 -0600
+
+    pre pull
+
+commit f84ed164d806ffb6953bd335fa11b30823bbed35
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 23:06:06 2022 -0600
+
+    Made a functioning main in ClueGame
+
+commit 3f26846167332241dee76a00d81ff6aa1a3e33b9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 22:59:01 2022 -0600
+
+    added partial functionality to BoardCell draw function
+
+commit 95cebd2d25694b3c5f6014e67c09f390e7af8f49
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 22:45:15 2022 -0600
+
+    added declarations for draw methods
+
+commit 0ea62d0af8ce9f527bb53b1262c9374ec2769f9f
+Merge: b8becd6 10b2d77
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 22:40:52 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 10b2d77ad808b9521ed8a75bdb7f9a57cda3d982
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 22:40:44 2022 -0600
+
+    Properly added files
+
+commit b8becd68140bd6cbb92fbd3abb0b945664b7c67d
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Apr 11 22:40:20 2022 -0600
+
+    pre pull
+
+commit fa50aff80db5b65d3b0a8faca48a489a567d85b7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 22:40:11 2022 -0600
+
+    Changed a player's color from black to orange
+
+commit 4b3586ffd4df831bf373ed2e5f8927e5af723dc1
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 21:48:54 2022 -0600
+
+    Added super.paintComponent
+
+commit f2929dbd8ec28b15c0a1ce086041080af0d42555
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 11 21:33:57 2022 -0600
+
+    Created ClueGame calss that extends Jframe, made Board a subclass of JPanel
+
+commit 0621ce3ca38b9f0cab401e1aa0f491506b342afb
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 8 20:27:29 2022 -0600
+
+    Added a loop that puts every card in the human player's seen cards to make sure visuals work correctly
+
+commit a3de186f98bf6c0d99a1cdabc39c48d6ac272328
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Apr 8 18:35:10 2022 -0600
+
+    added display of in hand cards to side panel, as well as functionality to add seen cards as they appear. fixed a bug in which the code displaying the players seen wouldn't read the seenPlayers arraylist, but the inHandPlayers
+
+commit b5c0eb70bca2670944ace4a13f6fc0e998ac4f5d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 8 16:50:04 2022 -0600
+
+    Added more descriptive comments
+
+commit 87b6014da6ca3e58f0f3442bab2edd80ea85ff70
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 8 16:28:18 2022 -0600
+
+    Correctly sized panels to match size of window and players are being added correctly
+
+commit db91f652616d43a52cfa937c661fd3c881da8820
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 8 16:02:23 2022 -0600
+
+    Moved the constructor logic to a function since it'll have to be called everytime the player sees new cards
+
+commit 1d99faf8fc032bda79c47aa287fd540c001a90b7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Apr 8 11:35:11 2022 -0600
+
+    Added a map that links a revealed card to the player that revealed it
+
+commit 3a8d318bbfeff33ff4091534372cb453936c5036
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 7 22:14:01 2022 -0600
+
+    Added an update function and panels to overall panel
+
+commit 6ae1dca9a48f4e6804e899ca1c1252da890dd9cf
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 7 21:26:03 2022 -0600
+
+    added side panel class and 3 subpanels
+
+commit 3a3f103a46ea26e9a8ac3cad739b7a62aef96b88
+Merge: 1f237ce 71ce9cd
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 7 21:14:33 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 1f237ce704afd3b2fd40b887c1427cc643aaa14b
+Merge: 2e8f691 15a8f8f
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 7 21:14:25 2022 -0600
+
+    pre pull
+
+commit 71ce9cd80d0b89d257ac6fa38f675acb1de7f0bc
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 7 21:09:44 2022 -0600
+
+    Created KnownCardsPanel
+
+commit 2e8f69187d385945d9a0d2cac3dd6cc651470d62
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Apr 7 20:39:14 2022 -0600
+
+    pre pull
+
+commit 15a8f8f5d0154a4f1e4d1439dbe5717b92a6e420
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 7 17:31:07 2022 -0600
+
+    Created KnownCardsPanel
+
+commit 85ab5113c15ac4d4826d6f6f29877ce946457778
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 7 13:31:50 2022 -0600
+
+    I, Alex Yen, certify that I participated equitably in the creation of assignment C22A-1, dated 4/7/2022.
+    I, Grant Renwick, certify that I participated equitably in the creation of this assignment C22A-1, dated 4/7/2022.
+
+commit 2958c522897b59654e26aab3db8d5b9f101a9898
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Apr 7 13:28:19 2022 -0600
+
+    Created a bottom panel and added all setters that properly function
+
+commit cec91472cf8602eea2126d7351bce00a14b194f7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Apr 6 21:35:14 2022 -0600
+
+    Created top panel and setTurn function that currently properly works
+
+commit 5239f6197e7807682eea0b1c5d8da69078215e79
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Apr 5 13:09:22 2022 -0600
+
+    Created GameControlPanel class
+
+commit 54c8aed97a1c7c952d6baae97e375c38be104276
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 4 01:03:26 2022 -0600
+
+    Added more descriptive comments for ai suggestion tests
+
+commit 8c904591e0c213d13a921fd782be83f211fef1e5
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 4 00:55:10 2022 -0600
+
+    Implemented method for computer suggestions and tests now properly pass. All test pass.
+
+commit 78f77851e0722852e7d2d8f214ad43aa592b86e2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Apr 4 00:35:42 2022 -0600
+
+    Created a test for computer suggestions that currently properly fails
+
+commit 52c97b2fdc0d9d960c52e51420462a6db367b3fd
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 3 22:51:39 2022 -0600
+
+    The test for handeling suggestions now properly passes
+
+commit 5237cb2fb86478ceff91c389690a5f30cfb9a075
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 3 21:30:48 2022 -0600
+
+    Created a test that properly fails for handling suggestions
+
+commit 0042213a78bd27e561c264a6108e057194836495
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 3 17:17:32 2022 -0600
+
+    Disputing a suggestion's tests now properly pass and have been refactored.
+
+commit f42d8c2a4724e77f150f0cdb3045c66e3a50435c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 3 17:10:12 2022 -0600
+
+    Created a test for disputing suggestions that currently correctly fails
+
+commit 44d6ac42d2941f43728dd37c159767d29fb5ccbc
+Merge: 1dfe746 da0c942
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 3 15:30:01 2022 -0600
+
+    fixed conflict
+
+commit 1dfe746c7901933bcc051c3df2bfa3f88b16a338
+Merge: dc277ad 4e2ee68
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 3 15:28:24 2022 -0600
+
+    completed tests and code for computer rolls and movement
+
+commit da0c942cdea8b13de889902145001768327654a2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 13:36:59 2022 -0600
+
+    Accusation test now properly passes
+
+commit fbcc221bfd8deea151166b28c53a3959f8e9f8f4
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 13:35:20 2022 -0600
+
+    Created a test that tests an accusation that currently properly fails
+
+commit dc277addb56d3152fe9730f0d4ee3c0270425fe4
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 13:23:23 2022 -0600
+
+    pre pull
+
+commit 4e2ee68487b3a4ccd5d837cdda1a033111cf2b31
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 13:23:00 2022 -0600
+
+    Check solution now properly passes after methods were implemented
+
+commit 949bb443d720c1bf9a6d6a348ad508726b611ecb
+Merge: 37d93e8 c0db115
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 13:22:02 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 37d93e8e8a41d816a8d3e8b53c861e3624314f52
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 13:21:58 2022 -0600
+
+    added test for comuter targets
+
+commit 762027dd6c93eab5a44a3de88edcd4c65f986aae
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 13:17:37 2022 -0600
+
+    Created a test that checks the solution that currently properly fails
+
+commit c0db115abb580e444cb9916d6677b10a09d5e7bf
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 13:08:13 2022 -0600
+
+    imported everything needed for tests in gamesolutiontests and computeraitests
+
+commit e6d35b4af4f2d3b520ceeb88352daf439ccc8092
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 13:06:37 2022 -0600
+
+    Added a function that lets one set a solution for testing in solution
+
+commit 0b8318235bf672cdb17722bd982231a85a0b2fa3
+Merge: 30f7c00 45b7c07
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 13:00:04 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 45b7c073c0fb2a48477845e16b574bce87883284
+Merge: 82312d5 a6a60b0
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 12:59:25 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 82312d5252037c39aef9e8a22310492df820d919
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 12:59:15 2022 -0600
+
+    Created test classes for game solution and computer ai
+
+commit 30f7c00ff2616a413258c3072f8be72aa1b200f0
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 12:58:35 2022 -0600
+
+    pre pull
+
+commit 3a612f0ba25f7533f9eda082b1283c70b5b5ecf9
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 31 12:58:27 2022 -0600
+
+    Created test classes for computer AI and game solution
+
+commit a6a60b0e4105f7e0b04c4cab77e384db621ec23b
+Merge: 8bec0f3 e1b5495
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 12:51:42 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 8bec0f30625a5e445f3fc05453426c4a4faa9a25
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 31 12:51:33 2022 -0600
+
+    removed updateHand function
+
+commit e1b54959bde7f21bd19fdc80b9ae5d2bbaa9c263
+Merge: 1c32955 6d2af6c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 21:38:25 2022 -0600
+
+    Handled merging
+
+commit 1c32955c30e3e3974dc6180d5905ee1666d66347
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 21:37:31 2022 -0600
+
+    Commented tests
+
+commit 6d2af6c39c6bc02c55e66e5968c6c7cf8c5e862f
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 21:37:18 2022 -0600
+
+    comments and formatting fixed for tests
+
+commit 9e9fa15b2d435d277b6c398d9c28528a800a96aa
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 21:33:06 2022 -0600
+
+    Added an if statement before make solution to ensure that the 306 tests with no players passes
+
+commit 3e6b7b9dbe976004b4352b293a5250d19263fdea
+Merge: 32e26de 49b5eb8
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 21:29:11 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 32e26de91a573d9a7c4c1c6539ee4422c3f1f29b
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 21:29:06 2022 -0600
+
+    Added more descriptive comments
+
+commit 49b5eb827ed100f46be9c4ba859bad77fe1ad2f4
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 21:28:27 2022 -0600
+
+    made deck dealing function
+
+commit 968f70415afe1bcb7924aa640aafd0c0503dbfd6
+Merge: 99f38d5 40ae7f1
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 21:15:16 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 40ae7f1abbf5e44580bf692e3d2951c43c713e77
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 21:15:01 2022 -0600
+
+    Made hand an array list of cards rather than just one card
+
+commit 99f38d5473dfe36ef4e607c9d820a11ff52ae4e4
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 21:15:01 2022 -0600
+
+    pre pull
+
+commit 88242f60eda3c1353205fe9254d8ec9026a4f43b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 21:11:44 2022 -0600
+
+    fixed removal of cards after addition to solution
+
+commit 8d619e31c45c8ee1f9c96bb38282cb3cf5db6aa6
+Merge: ea00c49 bc35ed8
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 18:21:20 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit ea00c49ab5e87703e476e39012100ccfb36f1aaf
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 18:21:15 2022 -0600
+
+    pre pull
+
+commit 9aa4ced3faad3091c4a6b3e6d6266fa9b4f966b9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 18:16:04 2022 -0600
+
+    pre pull
+
+commit bc35ed86af2db7214258d28ce75086a981cd7fab
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 18:08:27 2022 -0600
+
+    Created a test that checks that each player has a hand that is currently properly failing.
+
+commit 5caf8109df582d273aa9a3cba1b85ee50250ad24
+Merge: 99c7e5c fd9ed18
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:58:30 2022 -0600
+
+    pre push
+
+commit 99c7e5ce31e51a6f8455ad26e3065d250f8f4dda
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:55:00 2022 -0600
+
+    made solution generator work
+
+commit fd9ed18864ddc4a8b2e2f7934c4d95d578029565
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 17:51:17 2022 -0600
+
+    Added getters and setters to Player class
+
+commit c7813f4b504f78e43299f16df012d5a40871be8f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 17:47:39 2022 -0600
+
+    Added getters and setters to Player class
+
+commit 3a7b55f401ce968be74f37f886a9e3585226e4ec
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 17:40:37 2022 -0600
+
+    Weapons are properly loaded and weapons test now passes
+
+commit 617e17c3e73b52a0ef1df8663ac3dd854c05fd9d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 17:38:33 2022 -0600
+
+    Made a test to ensure weapons are loaded correctly that currently fails.
+
+commit fd91bb37ac112f84c63bc91042f9ec575896c040
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:32:48 2022 -0600
+
+    pre pull
+
+commit 8a249bc3ad49ac945c6ab905cc8dbb36f9340f9c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:20:31 2022 -0600
+
+    pre push
+
+commit 517935717bce776388cb9331a8763e2e3b373578
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:18:34 2022 -0600
+
+    pre pull
+
+commit f897751b45c9ebd6ca3fee51c25fb5e7bbe3f508
+Merge: d842bbe 4e4d43c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:16:51 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit d842bbe30df45a6aac6b3dccaa12698dea16ed50
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:16:45 2022 -0600
+
+    loads deck correctly
+
+commit 4e4d43c33c30c5ba60f8ac651d225372dfdac9d7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 17:15:08 2022 -0600
+
+    First test passes, players are correctly loaded.
+
+commit 0deab9178709ea93664e32e08481de2cf99783a1
+Merge: e2f4971 c8c6762
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:09:42 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit e2f49714ca09667e179cacfc84fc1b76f6dbec63
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 17:09:13 2022 -0600
+
+    pre pull
+
+commit c8c67629f01794ac5103a1c452ba94f9b9cbc15b
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 17:08:59 2022 -0600
+
+    Correctly adding players, however still not getting right size.
+
+commit 60ecaef8804fe63987c4b038fa852793e171ef74
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Wed Mar 30 16:35:21 2022 -0600
+
+    added tests for complete deck and solution
+
+commit 6320cae94a78abd428bc7df6860f20ea12e39a3a
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Wed Mar 30 16:08:53 2022 -0600
+
+    Commiting to push
+
+commit 8877db483a0d98bb56a472e8482d92af044dd23f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 29 13:28:37 2022 -0600
+
+    Created a test that checks if the correct number of players was loaded and it properly fails
+
+commit d26c0e8a6f336286657215e9a961aaba84b9acc8
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 29 13:24:03 2022 -0600
+
+    Updated setup file, need to create a test that fails
+
+commit 68cc19f84a8229f0cf26973c867f01915d3b5993
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 29 13:08:01 2022 -0600
+
+    Made updateHand abstract
+
+commit aadb2040b1e9d394c77ab97cde618172ee2d1d27
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 29 13:04:43 2022 -0600
+
+    Created Player class, ComputerPlayer class, HumanPlayer class, Card class, CardType, and setup test class
+
+commit e701b98b209e5f18a485c970df9f7b85177af6e6
+Merge: 20ceaa4 6d49134
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:48:27 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 20ceaa465460af14af1a00d5848df28c89f76486
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:48:15 2022 -0600
+
+    Merging changes
+
+commit 3481cdd78b5923be9720d59bad9aa13dd9d6120d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:46:40 2022 -0600
+
+    Refactored some variables that were getting data from getter methods into cleaner variables for it to be easier to read.
+
+commit 6d49134784eed744f7ece0a56a04717923475a52
+Merge: ade0c6a 6c5a648
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 14 16:45:09 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit ade0c6afe0cb5a21e3c4315f808ecca4631611c0
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 14 16:44:49 2022 -0600
+
+    replaced messy code to determine if a space is an accessible walkway with a separate method
+
+commit 7293b26c97ea213cab30d2492a28e7cd7b8f13eb
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 14 16:42:55 2022 -0600
+
+    replaced repeatedly called block of code to get the door direction with a method for it
+
+commit 6c5a648c4929857a9c065619e421982427b26ca2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:42:16 2022 -0600
+
+    Refactored adjacency calculations into individual methods
+
+commit d435e0a7fd309a80edb6f0833850df63267dd056
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:39:38 2022 -0600
+
+    Refactored the generation of room types into a method
+
+commit 4337d24ae6ab36556343198ec70dc966677b32d3
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 14 16:39:27 2022 -0600
+
+    extracted method to determine what type of room the adjacencies are instead of repeatedly calling code block
+
+commit 01e4d0e956a914bc67dbd579fadec6fa775182e3
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 14 16:36:26 2022 -0600
+
+    replaced long declaration of code to find the first character with a function to find the first character
+
+commit 8ae6f336ab77f5f16684f72c9edae5537bf72783
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:32:50 2022 -0600
+
+    Refactored the creation of all board cells into a method
+
+commit f63cf7bafdaf5d756d4df658a73731b20c34e470
+Merge: 4b5a0fe 519dc2f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 14 16:30:41 2022 -0600
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 519dc2f35b62f0b202f17a6c83bf56d8cd70fa1e
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 11 00:31:44 2022 -0700
+
+    formatting
+
+commit 4b5a0fe07ba8995423d46f99e28ff7128be4cf10
+Merge: caef574 6d151bd
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 11 00:26:50 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 6d151bd99e16e11afe3a421f68ab267f5e2c80ea
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 11 00:26:31 2022 -0700
+
+    got rid of unnecessary print statements
+
+commit 8d94b4bb9bc0b322acc62865b002d3550d7fc952
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 11 00:24:26 2022 -0700
+
+    all tests pass
+
+commit caef574fd1fa2848b812337569c9387097fd5877
+Merge: 1bbadbe 0e3a2c9
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 11 00:19:44 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 1bbadbe464d79b2b84170998c6c078d4cb24068f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 11 00:19:41 2022 -0700
+
+    Need most recent changes
+
+commit 0e3a2c9a59335765fd8cfa2d3ca0ab6f24b2843c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 11 00:17:14 2022 -0700
+
+    fixed all bugs with walkways
+
+commit 0aa22804767aab628fa63de189c1289cebcbb0d9
+Merge: 2f48a1c add95dc
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 11 00:01:16 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 2f48a1c38ade008817a358a0b9493277ede9da4e
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 11 00:01:11 2022 -0700
+
+    pre pull
+
+commit add95dccecaf9429859f3b6596421659fd6d59bf
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 11 00:01:09 2022 -0700
+
+    Made sure to correcly assign isRoom
+
+commit 05cdf383fa00dccaec4353359eb9e35c71a718e9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 10 23:57:04 2022 -0700
+
+    fixing targets test
+
+commit 2ae61b1ea77995b23f33c4aeef212812df1dcafb
+Merge: 8f6f3d3 2a15804
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 10 23:10:09 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 8f6f3d31cfa3156f99e77c7d7cd9b03b08101173
+Merge: 4adecd2 60f990b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 10 23:10:02 2022 -0700
+
+    pre pull
+
+commit 2a15804c710ef9503f7dd3a278ebb8adcf69550e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 10 23:09:57 2022 -0700
+
+    Added a function to clear targets before it is recursivly called
+
+commit 4adecd273ac8de6c7394156b07578d686b1e284c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 10 23:07:15 2022 -0700
+
+    pre pull
+
+commit 60f990b83a0321398bc806178dfc70274e0f2efa
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 10 23:05:41 2022 -0700
+
+    Got all adjacency tests to work
+
+commit 2193c87da53fb878bd4510a90cf3e59836cc3819
+Merge: 714c974 0c2dd8a
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 10 12:28:02 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 0c2dd8a3df12c3e7ac5087ca63b3b17c99ba5db1
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 10 12:27:58 2022 -0700
+
+    Commiting to push
+
+commit 714c974874571899fbfaebc58d819ba7586ee102
+Merge: 622c974 9a28327
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 10 12:26:37 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 9a28327d0bef59c96c6487b61c4df73a96bfba04
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 8 13:45:03 2022 -0700
+
+    Added a function for linking doorways and centers in a map
+
+commit 622c974b2254671366e2506997482c3c85ce4731
+Merge: 7a2e5f7 417317e
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 8 13:36:04 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 417317ec4f43926cd2e2b5d906ad9119eb9aa02a
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 8 13:35:57 2022 -0700
+
+    Made adjacency list correctly for walkways and doorways, need to make it work or room centers
+
+commit 7a2e5f75d11bb620feaf3346447f0bf4e3e3da13
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 8 13:35:23 2022 -0700
+
+    pre pull
+
+commit d7196bf90bb4a7e437bbd985345306bc20e8f356
+Merge: 1748572 5b193da
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 8 12:51:50 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 5b193dae8b23848d3a91d729739cd9473513b348
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 8 12:50:54 2022 -0700
+
+    Changed any before alls to before each and cleared data structures for each initalize so all tests can pass at the same time.
+
+commit 1748572861511ad8983cbf8884382011aa0d395c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 8 12:50:21 2022 -0700
+
+    pre pull
+
+commit efa30c9e0e17952b97564027b015c9d7679bc014
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 22:59:32 2022 -0700
+
+    updated excel sheet
+
+commit d548e57970c808b4ab892867738c9610dbf3415f
+Merge: 49f2495 608f122
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 22:39:14 2022 -0700
+
+    compiled all tests
+
+commit 49f24954216747615af9a0360c63a9a88a24c0df
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 22:37:11 2022 -0700
+
+    added failing target tests
+
+commit 608f1229b489774b112d21d1385ed0587ac40663
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 22:34:12 2022 -0700
+
+    Finished adjacency tests
+
+commit eec7104de738dbe9fe987b4284ca953063c8ede4
+Merge: f778ac4 c5cdd72
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 21:58:11 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit f778ac445450d216010b2c881703d9b199c072cd
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 21:57:24 2022 -0700
+
+    Added excel sheet to data
+
+commit c5cdd72e5e54be718932b7cd3e8f9a8f1ebabc22
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 21:51:34 2022 -0700
+
+    exception tests work
+
+commit 7b7a3de87fbbe454e1a6245381b573e3c43ab992
+Merge: 50b6957 cc865f9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 21:48:02 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit cc865f988083543e2bf144167e97f19fa53caafb
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 21:47:50 2022 -0700
+
+    added setup to BoardAdjTargetTest
+
+commit 50b6957849ccdbc10e9a82b6ae504561c97c4c38
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 21:47:22 2022 -0700
+
+    pre pull
+
+commit 33867a8132b3b417e4160c67b0db1ca9a22fcf40
+Merge: bd97a72 ce9cca3
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 21:46:42 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit bd97a721db18749efcf3ebe6922518c260abe6a9
+Merge: c98daa0 b37240a
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 21:46:36 2022 -0700
+
+    pre  pull
+
+commit ce9cca3a7393938656b1ed700c86a81d67c6e2a2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 21:45:58 2022 -0700
+
+    Added getAdjList method to board
+
+commit c98daa03b7bb46fe0f24171c7deeb2f5d9b630a4
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Mon Mar 7 21:45:13 2022 -0700
+
+    pre pull
+
+commit b37240a2852224d9a1854b6ee4beeec840f9fa5c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 21:19:44 2022 -0700
+
+    Created BoardAdjTargetTest
+
+commit cc1d011426bd86c976aae77e6ede7b7b5d5898fc
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Mon Mar 7 21:18:17 2022 -0700
+
+    Added 306 adjacency test file
+
+commit 06a697e38aa533aa819206861425e68eb2d099b0
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 20:23:01 2022 -0700
+
+    Finished refactoring
+
+commit 1b45ee09a0afc8c77035af1f9e035b40eb32e0d2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 20:20:28 2022 -0700
+
+    Refactoring
+
+commit 264a6c0ca4ba007e15b14aa3ef63a68677565930
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 20:19:49 2022 -0700
+
+    Refactoring
+
+commit 73d29a61b71a24cf3b8358683fe61f24f8b6be36
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 20:15:46 2022 -0700
+
+    Needs refactoring
+
+commit a94c5048d12e63dc6ef5bd4b9de84eaf2e344b1a
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 20:06:25 2022 -0700
+
+    Refactored and added comments
+
+commit 0d0fdd0d5215a88dc75ff2e9234a3f2138ad72f2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 19:45:15 2022 -0700
+
+    Got all tests working, need to refactor.
+
+commit 5834c28da7e871b8ded8d2d27a652c093dd543f4
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 18:14:26 2022 -0700
+
+    Got error message to print for testing if in legend.
+
+commit 33754f91b5ef5e8c654f29c1df9998a0736df34b
+Merge: 2aa1130 9baa9b8
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:59:15 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 9baa9b807034c23bf779bb58f85259f7011e9aab
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:59:06 2022 -0700
+
+    Got one exception test working for seeing if a room is in the legend.
+
+commit 2aa1130bbaae64b85e95dd5bdcbbc1feb18649df
+Merge: 1ab890a 9d93f2f
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:58:48 2022 -0700
+
+    pre pull
+
+commit 1ab890af8249e9ff0479e7a210e7133a3b2cfa17
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:39:53 2022 -0700
+
+    pre pull
+
+commit 9d93f2f7a6bba36ebadf4a959332e25c5383e368
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:38:17 2022 -0700
+
+    Added constructors for BadConfigFormatException
+
+commit 55855b1562ad509c7d1b4c5115bae0a1ef2c72ed
+Merge: 716b428 858abb5
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:29:57 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 716b4282ecbcf24010b9429b4f255e762a27239e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:29:53 2022 -0700
+
+    Removed print statements
+
+commit 858abb5346fe59c43d459c54aece48d3a1c0f640
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:28:40 2022 -0700
+
+    all fileInit tests pass
+
+commit 3b840b6518dc502adfa0328b74cf80e00cc2e470
+Merge: 714712a d5fbdb6
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:26:00 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 714712a8a025123dead7a336a787af350a879bd2
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:25:56 2022 -0700
+
+    made all tests pass
+
+commit d5fbdb6c6112a3d74e961872950cb698e7b4cacd
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:25:17 2022 -0700
+
+    Corrected expected number of doors for our testNumberOfDoorwaytest
+
+commit 1aba5964e5d730402ae8ca9382a87d57fa37745e
+Merge: 1233d01 9e95a64
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:17:14 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 1233d014d50703f017a5adb42151862991c3fb3b
+Merge: 6b375b5 c564642
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:17:09 2022 -0700
+
+    Need most recent changes
+
+commit 9e95a640137684cbfff7d8685cfc10148391d9c4
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:16:48 2022 -0700
+
+    fixed testDoors
+
+commit 6b375b5cd25479d51a39bc120a4cf5ef5566a4b8
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:14:51 2022 -0700
+
+    Need to commit for most recent changes.
+
+commit c5646422f632b4c79dea257bdcaec8f84e39342b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:14:14 2022 -0700
+
+    edited indexes of our tests to pass
+
+commit 4beca0abfafb6125980347989b597c1b057fc954
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Mar 6 17:06:36 2022 -0700
+
+    implemented testRooms correctly
+
+commit 711e5f7647974488b86ec4a3d7b482bfe290dbb0
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Mar 6 17:00:55 2022 -0700
+
+    Commit for push
+
+commit 50d5ae965af1351c3f7d4d682e928c8a79e99a0c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sat Mar 5 18:01:10 2022 -0700
+
+    Got file input working and passed dimensions and labels tests
+
+commit 34c5a12f2feb289dd10cdcea17fc43a8c19caca1
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sat Mar 5 15:02:22 2022 -0700
+
+    changed file types
+
+commit 6346d899a9247022408b98cc578cef39a3a64a04
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sat Mar 5 14:47:08 2022 -0700
+
+    reconfigured getters and setters
+
+commit b7422c0c9b3dda718b4ad40efd69aabc9f31fdf9
+Merge: 1da2aa7 a77d4be
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 17:25:34 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 1da2aa7c1e88340eddb5d6747604298ffe7efcd1
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 17:25:27 2022 -0700
+
+    Made testRooms() match our layout
+
+commit a77d4befd86b172f981936a025b7a7583feb08e5
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 17:24:50 2022 -0700
+
+    fixed coordinates
+
+commit e8310398337b1a3d2ccc0185b3574f643b539ffe
+Merge: 2f9d38b e314189
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 17:15:16 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 2f9d38bfdd808c37cc8c9b597ce22c30ae5fd70c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 17:15:11 2022 -0700
+
+    Made testRooms() match our layout
+
+commit e314189489f714a6a9159bf196c1949081dfd9c5
+Merge: 8836923 303a125
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 17:14:23 2022 -0700
+
+    edited fourDoorDirections test to match our game board
+
+commit 88369238638ecde56bf1b1ae38da6f261b6f1816
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 17:09:56 2022 -0700
+
+    pre pull commit
+
+commit 303a125a92f198e069587657f7ef56663e525d15
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 17:09:34 2022 -0700
+
+    Created FileInitTests
+
+commit 28cb3b3fce149efc8f391fbf29ac1377d2d94509
+Merge: 09a54b8 ec1fb7a
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 16:56:09 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 09a54b888ecc8ebb3dcef4c9c13b65074ccd3c76
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 16:55:47 2022 -0700
+
+    added necessary elements to match UML diagram
+
+commit ec1fb7a92148179c7cf50e1976b1bee70b19b9d5
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:54:11 2022 -0700
+
+    Implemented UML diagram for Room
+
+commit 3937db29626c76332dd3d3f5e14dbf92ec1bffae
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 16:46:04 2022 -0700
+
+    fixed errors with type declaration
+
+commit 32be0e93586c1dc50b3ab2fd917dbda5830c0161
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 16:43:08 2022 -0700
+
+    initialized methods to remove failures
+
+commit d099f470ff053c640c3d7f7eb340ce42bb823f06
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:37:21 2022 -0700
+
+    Added singleton pattern
+
+commit c979017aa00c6159e6e221eca1d506ff920666df
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:35:05 2022 -0700
+
+    Created classes and copied test functionality over to the game functionality.
+
+commit e07063381c18920c1e28871bfe091f0b77f29f73
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:23:02 2022 -0700
+
+    Added files for init 1
+
+commit 65a3afd622372e24a28f052f0008c41bb88396a3
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:19:11 2022 -0700
+
+    Got working changes
+
+commit 2ab64d9503e3020385ed583764fcbf1a1610ce2c
+Merge: 302f412 4d2f3c2
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:16:13 2022 -0700
+
+    Need to pull working changes from repo
+
+commit 302f41202e6a5cc5eb05578ea7fd2004a751bccf
+Merge: bdace2d ff8fbb7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 16:13:47 2022 -0700
+
+    Commit to get working changes from repo
+
+commit 4d2f3c2b6a9d6d7278be5dc198cb7d1c8e45967d
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 16:05:45 2022 -0700
+
+    Fixed all tests
+
+commit a1c2b38f28c092b30618f3e44b4a0898651ead6f
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 15:55:43 2022 -0700
+
+    pre pull commit
+
+commit bdace2d694693fc0f6550a400e3050d545bd4059
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Fri Mar 4 15:28:43 2022 -0700
+
+    Working on clear visited for each path
+
+commit ff8fbb73b89cdf49d763b59b6841139f7b85273b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Fri Mar 4 15:20:10 2022 -0700
+
+    edited beforeEach to pass all tests
+
+commit 80d619279cb00cdc5e2b5025ee2aca675b339d3e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 23:36:40 2022 -0700
+
+    Merged, must solve issue of needing targets and visited cleared
+
+commit 25d47a3d2fdc71b207f5cc7a815d5f4a54573f8b
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 23:35:25 2022 -0700
+
+    Made every test work, save for backtracking
+
+commit 4640936a499612cd36fb694568199e06866741aa
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 23:00:48 2022 -0700
+
+    Used adjacency list in calcTargets() instead of if statements.
+
+commit 063dcd085d240a809162d9337cbcd65a88a10f14
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 22:30:49 2022 -0700
+
+    progress on calcTargets
+
+commit d7ebc7d1a1d8d9b27affb1714b516199cc9afdf7
+Merge: 66be3d2 8a8679d
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 13:40:36 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 66be3d25ee6fc5ebab7d59d7355893200304373c
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 13:40:32 2022 -0700
+
+    Fixed Errors
+
+commit 8a8679d7799e33cae74696567ebad5edcf2e6a5d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 13:40:13 2022 -0700
+
+    The adjacency list is now made in the constructor of the board so that an adjacency list is built for every cell on the board
+
+commit e4e8b6e23f0eb42938bcc1d693d1054f763141c5
+Merge: 0407f28 640c19a
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 13:28:12 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 640c19ab30e4f94cdd09b054cd9594129ef699f3
+Merge: 9760288 4fdc7f3
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 13:28:05 2022 -0700
+
+    Successfully handled merging
+
+commit 9760288107ff6a1ba60ee38bdaa0dba0a74df796
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 13:26:57 2022 -0700
+
+    Finished code that makes adjacency tests work
+
+commit 0407f2869c14d4db944f40a1f8de65cf82d30852
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 13:26:37 2022 -0700
+
+    Pre pull commit
+
+commit 4fdc7f33399fb345f679eab1e1da5587faf461b9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 13:17:41 2022 -0700
+
+    Added initial calcTargets method
+
+commit 3f923dcca329ae131ae65ace3dc97a18407ee86b
+Merge: 8b47c05 bd65afa
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 12:48:47 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 8b47c058a9f5ba204c06853479021950598c5149
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Thu Mar 3 12:48:43 2022 -0700
+
+    Pre Pull commit
+
+commit bd65afa54cae4232aeebd49ef3488763e3210e94
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 12:48:13 2022 -0700
+
+    Added some functionality to methods.
+
+commit 91f954c21133906de9f0d77de40f0d6969a58230
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Mar 3 12:37:12 2022 -0700
+
+    Added instance variables to TestBoard and TestBoardCell.
+
+commit e7c89105717d7e1c8d5f3500e905e13f339d7d5a
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 19:23:55 2022 -0700
+
+    Added authors at top of classes. I, Grant Renwick, and I, Alex Yen, certify that we participated equitably in C13A-2 Clue Paths 1 dated 3/1/22.
+
+commit 194a70395e8d717674f5d9ffb25c220e270f0c0f
+Merge: 985adae 446012d
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:20:11 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 985adae1763bd7985d3d7d27c0c5375748322eea
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:20:02 2022 -0700
+
+    added comments
+
+commit 446012d21f60e0b8c80279eb9dd8393f146946fa
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 19:18:37 2022 -0700
+
+    Changed getters for isRoom and getOccupied to booleans instead of void
+
+commit e531a463ea3083482be5c8d3154b9f58b169d1ac
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:14:21 2022 -0700
+
+    Added final 2 tests, for different start position and different amount of movements
+
+commit 70695fcb3ddb7810aeb22d8e0bf85fd8f942b941
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:10:10 2022 -0700
+
+    Fixed confusing variable name
+
+commit f5f303ebff442027c0c1e672b8fe043b04e6386e
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:05:46 2022 -0700
+
+    Pull and Merge
+
+commit 1145a94bb0ff2f201fd5468e1227237cba7f2e86
+Merge: 2bafeeb 0c58d3d
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:04:29 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit 2bafeeb1cdce886671e6b3059ae496a8dca17fbb
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 19:04:23 2022 -0700
+
+    Added mixed room test
+
+commit 0c58d3d7bd9eb3e6b42bfeed37004f621e06d24e
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 19:02:02 2022 -0700
+
+    Broke up the adjacency tests into individual tests.
+
+commit 424a40a0ad51511a83e398015046d67b29c3fc81
+Merge: 0bdf1c3 e860ac7
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 18:56:30 2022 -0700
+
+    Merge branch 'master' of https://github.com/SoonerAlex/ClueGame
+
+commit e860ac70167769dd10f9c03bec96e00d5d6d6958
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 18:56:26 2022 -0700
+
+    Changed sets to create a new set using constructor instead of just setting equal to null.
+
+commit 0bdf1c3af0421260712e7cbab1d4e8f92663cdc3
+Merge: 918c56d 466b5dc
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 18:56:14 2022 -0700
+
+    Post pull commit, fixed conflicts
+
+commit 466b5dc8f30fc0cd821bef451d009507f9fad917
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 18:53:59 2022 -0700
+
+    Handled conflicts
+
+commit 918c56d1bf5db6018efee7a5595408f6e5465164
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 18:53:43 2022 -0700
+
+    Merge prep
+
+commit c81872ddb828fdfde6957ff64e870ac0768e6cec
+Merge: 13dd8f2 adcb7b5
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 18:52:23 2022 -0700
+
+    Handled merges
+
+commit 13dd8f291f1a722191bc86eaa2b151fe4d7bec5f
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 18:51:19 2022 -0700
+
+    Got testAdjacency to fail the first test, but it does not continue. Either break up into multiple tests or try try catch blocks.
+
+commit adcb7b57ad9b87d58c4f732c3177bcd326bc8751
+Merge: c887c08 4f3e917
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 18:45:30 2022 -0700
+
+    Fixed Conflicts
+
+commit c887c08570d07be190e2dd951525f7f74cf555a2
+Merge: 21ae6c4 d8c68d9
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 18:44:37 2022 -0700
+
+    Made testTargetsNormal work
+
+commit 4f3e917c43e06436efd3c6746bd8aff16a0968d7
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 13:49:18 2022 -0700
+
+    NullPointerExceptions in BoardTestsExp need to be fixed
+
+commit d8c68d9699d429dbb8effd171784a0d645e73cd4
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 13:29:51 2022 -0700
+
+    Finished making tests for testAdjacency, getting erros and not failures.
+
+commit 21ae6c48c06d40d74fb7c61478d47209a4506e45
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Tue Mar 1 13:29:47 2022 -0700
+
+    Initialized testTargetsNormal
+
+commit 83d186595a567df5cfeb5abad53fd2ea652a165c
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 13:06:16 2022 -0700
+
+    Created constructor for tests
+
+commit a3200bc395bb75f86753b19c4eadb33acb448d13
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Tue Mar 1 13:04:27 2022 -0700
+
+    Created constructor for tests
+
+commit bd8fb4c330b7a9564f3544ab9d5eacf305167dc3
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Feb 24 13:30:20 2022 -0700
+
+    Created method and class outlines
+
+commit 9e42d375c0d0c6ca6b0a8ff3068787d53e9c6f23
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Thu Feb 24 13:13:52 2022 -0700
+
+    Initial commit

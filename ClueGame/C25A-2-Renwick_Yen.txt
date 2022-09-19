@@ -1,0 +1,91 @@
+Authors: Grant Renwick, Alex Yen
+
+Git Log:
+commit 9424928cb2fb8a00d7438c4e157d64a67cff293b
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:29:13 2022 -0600
+
+    edited the player movement function to reflect the check of if a player can move into an occupied space or not
+
+commit e0e5ff2b794444ff46c9dd32f50c99230cf4a749
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 22:24:48 2022 -0600
+
+    reworked the doorDraw function to be neater and less redundant
+
+commit 8f6e1da78124ee9db0f2d4a015bbab091c2ce74d
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 22:24:43 2022 -0600
+
+    Fixed a bug where the occupation status of cells was not being correctly updated
+
+commit 570c2634a1037e36d2677c552c1741a3f9be1cef
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 22:09:07 2022 -0600
+
+    shortened a block of code that checked if a space that was being drawn was a target to a function call 'isValidTarget'
+
+commit 433db505e5e1310551e110b5384998dc5b5c5942
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 21:57:45 2022 -0600
+
+    shortened constraints of if statement that checked if the GUI could draw the name of the room in a space
+
+commit 21aa26cf061da1f8ac1c3ba27b8f24cb281c365b
+Author: Alex Yen <alexyen@mines.edu>
+Date:   Sun Apr 17 21:53:32 2022 -0600
+
+    Extracted the x and y variable in mouse listener for player movemnet for readability
+
+commit 3661d4cbdc9c5bf8a5938a97d7ba35e73e285ed8
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 21:53:27 2022 -0600
+
+    shortened the code that draws the board spaces in the GUI
+
+commit 9eafc35ee4b26bb2aef81d366a73de7326b20c8f
+Author: Grant Renwick <grenwick@mines.edu>
+Date:   Sun Apr 17 21:51:13 2022 -0600
+
+    extracted a method from a lengthy code block in the human player getting possible targets to make it more readable
+
+
+
+
+Most Significant Change:
+	Before:
+		if(getInitial().length() > 1) {
+			if(getInitial().charAt(1) == '<') {
+				g.setColor(Color.BLUE);
+				g.fillRect(getCol() * cellWidth, getRow() * cellHeight, cellWidth / 5, cellHeight);
+			}
+			if(getInitial().charAt(1) == '>') {
+				g.setColor(Color.BLUE);
+				g.fillRect(getCol() * cellWidth + 24, getRow() * cellHeight, cellWidth, cellHeight);
+			}
+			if(getInitial().charAt(1) == 'v') {
+				g.setColor(Color.BLUE);
+				g.fillRect(getCol() * cellWidth, getRow() * cellHeight + 22, cellWidth, cellHeight);
+			}
+			if(getInitial().charAt(1) == '^') {
+				g.setColor(Color.BLUE);
+				g.fillRect(getCol() * cellWidth, getRow() * cellHeight, cellWidth, cellHeight / 5);
+			}
+		}
+	After:
+		if(getInitial().length() > 1) {
+			g.setColor(Color.BLUE);
+			if(getInitial().charAt(1) == '<') {
+				doorLeft(cellHeight, cellWidth, g);
+			}
+			if(getInitial().charAt(1) == '>') {
+				doorRight(cellHeight, cellWidth, g);
+			}
+			if(getInitial().charAt(1) == 'v') {
+				doorDown(cellHeight, cellWidth, g);
+			}
+			if(getInitial().charAt(1) == '^') {
+				doorUp(cellHeight, cellWidth, g);
+			}
+		}
+Shifted the color change to before the check of door direction, then neatened the statements to be more readable

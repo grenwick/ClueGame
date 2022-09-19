@@ -1,0 +1,27 @@
+//Rooms and room cards
+Room, Firelink Shrine, F
+Room, Anor Londo, A
+Room, Senpou Temple, S
+Room, Church Ward, C
+Room, Ash Lake, L
+Room, Greyoll's Dragon Barrow, D
+Room, Gunfort, G
+Room, Fountainhead Palace, P
+Room, Blighttown, B
+//other spaces on board
+Space, Unused, X
+Space, Walkway, W
+//Players
+Player, Solaire of Astora, yellow, Human, 0, 17
+Player, Isshin Ashina, cyan, Computer, 7, 24 
+Player, Unbreakable Patches, orange, Computer, 22, 8
+Player, Lady Maria of the Astral Clocktower, red, Computer, 22, 22 
+Player, Morgott the Omen King, light brown, Computer, 22, 17 
+Player, Siegward of Catarina, gray, Computer, 7, 1
+//Weapons
+Weapon, Mortal Blade
+Weapon, Moonlight Greatsword
+Weapon, Zweihander
+Weapon, Whirligig Saw
+Weapon, Rivers of Blood
+Weapon, Washing Pole
